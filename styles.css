@@ -1,0 +1,96 @@
+*{
+    margin: 5px;
+    padding: 0px;
+} 
+body{
+background:rgba(179, 62, 62, 0.534);
+color: rgb(238, 12, 12);
+} 
+#contenedor {
+    width: 900px;
+    margin:auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+header{
+    height: 150px;
+    background: rgb(55, 11, 216);
+}
+header h1 {
+    font-size: 30px;
+    text-align: center;
+    line-height: 25px;
+}
+nav {
+    background: rgb(141, 50, 38);   
+    height: 70px;
+}
+nav h2 {
+    font-size: 30px;
+    text-align: center;
+}
+#contenido {
+    width: 700px;
+    height: 500px;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 174, 0);
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#contenido iframe {
+    align-self: center;
+    display: block;
+    margin: 0 auto;
+}
+#contenido h2{
+    font-size: 40px;
+    text-align: center;
+}
+#contenido p {
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+aside{
+    width: 200px;
+    height: 300px;
+    background: green;
+    margin-top: 50px;
+    float: rigth;
+}
+aside h2 {
+    font-size: 30px;
+    text-align: rigth;
+}
+footer{
+    background: #000;
+    clear:both;
+}
+footer h2 {
+    font-size: 40px;
+    text-align: center;
+    padding:20px;
+    font-style:italic;
+}
+#contacto {
+    max-width: 300px;
+    width: 70%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+input {
+    padding: 5px;
+}
